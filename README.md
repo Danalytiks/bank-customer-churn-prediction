@@ -54,6 +54,8 @@ Models and hyperparameters are tuned using training and validation sets to maxim
 - **AUC-ROC** calculation and comparison with F1  
 - Summary of the final model performance
 
+---
+
 ## 📊 Results
 
 After addressing class imbalance and tuning hyperparameters, the final selected model achieved:
