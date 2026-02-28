@@ -52,7 +52,18 @@ Models and hyperparameters are tuned using training and validation sets to maxim
 ### 4️⃣ Final Evaluation
 - Test set evaluation using **F1-score**  
 - **AUC-ROC** calculation and comparison with F1  
-- Summary of the final model performance  
+- Summary of the final model performance
+
+## 📊 Results
+
+After addressing class imbalance and tuning hyperparameters, the final selected model achieved:
+
+- **F1-score (test set): ~0.62**
+- **AUC-ROC (test set): ~0.85**
+
+The model exceeded the required F1 threshold (0.59) while maintaining strong class discrimination performance as measured by AUC-ROC.
+
+The results demonstrate that correcting class imbalance significantly improves recall and overall model effectiveness in churn prediction.
 
 ---
 
